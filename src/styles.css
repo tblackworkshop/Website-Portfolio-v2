@@ -43,6 +43,7 @@ ul {
 li {
     /* width: 200px; */
     text-decoration: none;
+    padding: 10px;
 }
 
 h1 {
@@ -107,6 +108,10 @@ p {
     padding-bottom: 200px;
 }
 
+.icon{
+    margin: 20px;
+}
+
 .logo {
     height: 80px;
     margin: 30px;
@@ -132,6 +137,7 @@ p {
 .headshot {
     width: 300px;
     border-radius: 150px;
+    margin: 20px;
 }
 
 .headshot-container {
@@ -193,7 +199,7 @@ a {
         border: 0;
         background-color: transparent;
         color: white;
-        font-size: 30px;
+        font-size: 50px;
         margin: 20px;
         align-self: flex-end;
     }
