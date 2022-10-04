@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="src/styles.css" />
+        <link rel="stylesheet" href="src/contact.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -10,15 +10,28 @@
         <meta charset="UTF-8" />
     </head>
     <body>
-        <form action="https://formsubmit.co/tylerblack1793@gmail.com" method="POST">
-            <input type="hidden" name="_subject" value="Job prospect">
-            <input type="email" name="email" placeholder="Email Address" required>
-            
-            <form action="https://formsubmit.co/eda62ed3b5096aaf4f260827365fd4fa" method="POST" />
-            <input type="text" name="name" placeholder="write message here" required>
-            
-            <button type="submit">Send</button>
-       </form>
+        
+        <div class="form-container">
+            <form action="https://formsubmit.co/tylerblack1793@gmail.com" method="POST">
+                <h1>Contact Me</h1>
+                <div class="info">
+                    <input type="hidden" name="_subject" value="Email from FormSubmit website">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_autoresponse" value="Thank you! Your message has been sent successfully. I will reply to your email shortly.">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input class="email" type="email" name="email" placeholder="Your Email Address" required>
+                    <input type="text" placeholder="Company name (optional)" name="company">
+                </div>
+                <p>Message</p>
+                <div>
+                    <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+           </form>       
+                    
+                
+        </div>
+              
 
     </body>
 </html>
