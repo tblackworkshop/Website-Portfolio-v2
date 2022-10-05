@@ -35,6 +35,7 @@ form {
     box-shadow: 0 2px 5px #333663; 
     background: #d0d5fd; 
     color: #414141;
+    border-radius: 30px;
 }
 
 input, textarea {
@@ -57,5 +58,5 @@ button {
 }
 
 button:hover {
-    background-color:#333663;
+    background-color: #354288;
 }
