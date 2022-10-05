@@ -65,6 +65,12 @@ body {
         
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
 .nav-container-left {
     display: flex;
     flex-direction: row;
@@ -74,13 +80,6 @@ section {
     background-color: white;
     transition: 0.3s;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 
 .hero {
     background-color: #1c1d25;
