@@ -11,9 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #4862b8;
+    background-color: #21232c;
 }
-
 
 h1 { 
     font-size: 30px;
@@ -24,11 +23,12 @@ h1 {
 p {
     font-size: 14px;
     margin: 0 0 5px;
-    color: #4862b8;
+    color: #000000;
+    font-weight: 400;
 }
 
 form {
-    width: 450px;
+    width: 70%;
     display: block;
     padding: 25px;
     margin: 25px;
@@ -44,9 +44,6 @@ input, textarea {
     border: 1px solid #4862b8;
     outline: none;
 }
-
-
-
 
 button {
     width: 100%;

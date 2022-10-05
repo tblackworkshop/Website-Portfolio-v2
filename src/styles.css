@@ -8,17 +8,18 @@ body {
 }
 
 .light-landing {
-    background-color: rgb(92, 194, 160) !important;
+    background-color: #5cc2a0 !important;
     transition: 0.3s;
 }
 
 .light-nav {
-    background-color: rgb(0, 146, 114);
-    transition: 0.3s;
+    background-color: rgb(0, 0, 0);
+    
 }
 
 .light-contact-me {
-    background-color: rgb(125, 217, 245);
+    background-color: #5cc2a0;
+    color: #000000;
     transition: 0.3s;
 }
 
@@ -68,7 +69,20 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    transition: 0.3s;
+    background-color: #21232c;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+    padding: 10px;
 }
 
 .nav-container-left {
@@ -102,22 +116,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     transition: 0.3s;
-}
-
-
-ul {
-    display: flex;
-    list-style-type: none;
-    width: 500px;
-    justify-content: space-around;
-    font-size: 30px;
-}
-
-
-li {
-    /* width: 200px; */
-    text-decoration: none;
-    padding: 10px;
 }
 
 h1 {
@@ -156,20 +154,25 @@ p {
 }
 
 .button {
-    width: 200px;
+    width: 250px;
     height: 50px;
     border-radius: 30px;
     background-color: coral;
     text-align: center;
+    vertical-align: middle;
     font-size: 30px;
-    font-weight: 300;
-    padding-top: 5px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
-#email-button {
-    padding: 10px;
-}
+/* #email-button {
+    
+} */
 
 .button:hover {
     background-color: #ef744b;
@@ -206,7 +209,7 @@ p {
 #about-me {
     padding-top: 15%;
     transition: 0.3s;
-    background-color: rgb(157, 179, 250);
+    background-color: #95cdff;
 }
 
 .sub-section-alternative {
@@ -214,6 +217,7 @@ p {
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    background-color: white;
 }
 
 .headshot {
@@ -227,12 +231,12 @@ p {
     align-items: center;
 }
 
-
 .project-card {
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(136, 136, 136);
     margin: 10px;
+    background-color: white;
 }
 
 .project-container {
@@ -282,7 +286,7 @@ a {
         background-color: transparent;
         color: white;
         font-size: 50px;
-        margin: 20px;
+        margin: 30px;
         align-self: flex-end;
     }
 
