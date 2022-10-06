@@ -29,6 +29,7 @@ p {
 
 form {
     width: 70%;
+    max-width: 800px;
     display: block;
     padding: 25px;
     margin: 25px;
